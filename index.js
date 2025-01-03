@@ -100,7 +100,9 @@ client.on('message_create', async (message) => {
             await chat.sendStateTyping();
             await delay(2000);
 
-        await client.sendMessage(message.from, `Segue o link para o modelo escolhido: ${siteLink}`);
+        await client.sendMessage(message.from, `${siteLink}`);
+            await client.sendMessage(message.from, 'Para voltar ao menu, selecione:\n' +
+                '\n0️⃣0️⃣MENU\n');
         state[user] = null; // Reseta o estado do usuário
         return;
         }
@@ -130,7 +132,7 @@ client.on('message_create', async (message) => {
             await delay(2000);
 
             await client.sendMessage(message.from, `${siteLink}`);
-            await client.sendMessage(message.from, 'Para voltar ao menu, selecione\n' +
+            await client.sendMessage(message.from, 'Para voltar ao menu, selecione:\n' +
                 '\n0️⃣0️⃣MENU\n');
             state[user] = null; // Reseta o estado do usuário
             return;

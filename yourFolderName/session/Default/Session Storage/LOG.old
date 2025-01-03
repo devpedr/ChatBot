@@ -1,2 +1,3 @@
-2025/01/02-21:12:28.588 1813 Creating DB /home/pedro-augusto/Área de trabalho/ChatBot/yourFolderName/session/Default/Session Storage since it was missing.
-2025/01/02-21:12:28.593 1813 Reusing MANIFEST /home/pedro-augusto/Área de trabalho/ChatBot/yourFolderName/session/Default/Session Storage/MANIFEST-000001
+2025/01/02-21:34:24.113 2325 Reusing MANIFEST /home/pedro-augusto/Área de trabalho/ChatBot/yourFolderName/session/Default/Session Storage/MANIFEST-000001
+2025/01/02-21:34:24.113 2325 Recovering log #3
+2025/01/02-21:34:24.113 2325 Reusing old log /home/pedro-augusto/Área de trabalho/ChatBot/yourFolderName/session/Default/Session Storage/000003.log 
